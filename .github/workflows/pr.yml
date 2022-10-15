@@ -1,8 +1,5 @@
 name: PullRequest
-on: 
-  push:
-    branches:
-      - main
+on: [pull_request]
 jobs:
   PullRequest:
     runs-on: ubuntu-latest
